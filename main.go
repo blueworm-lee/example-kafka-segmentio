@@ -11,7 +11,7 @@ import (
 
 const (
 	topic         = "message-log"
-	brokerAddress = "192.168.110.90:9092"
+	brokerAddress = "<yourip>:9092" //Modify kafka ip address
 )
 
 func createTopic(context context.Context) {
